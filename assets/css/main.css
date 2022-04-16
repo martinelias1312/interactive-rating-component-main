@@ -173,13 +173,13 @@ button:focus, button:hover {
   border-radius: 1em;
 }
 
-.clicked {
-  color: white;
-  background: #959eac;
-}
-
 .hidden {
   display: none;
+}
+
+.clicked {
+  color: white;
+  background: #7c8798;
 }
 
 /*
