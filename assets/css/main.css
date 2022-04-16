@@ -42,4 +42,16 @@ p {
 /*
  *	CONTENT
  ------------------------------------------------------ */
+/*
+ *	FOOTER
+ ------------------------------------------------------ */
+.attribution {
+  font-size: 0.7em;
+  text-align: center;
+  color: #7c8798;
+}
+
+.attribution a {
+  color: white;
+}
 /*# sourceMappingURL=main.css.map */

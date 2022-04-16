@@ -1,7 +1,20 @@
 @import url(/assets/css/normalize.css);
 @import '_variables';
-@import 'general';
+@import '_general';
 
 /*
  *	CONTENT
  ------------------------------------------------------ */
+
+/*
+ *	FOOTER
+ ------------------------------------------------------ */
+.attribution {
+    font-size: 0.7em;
+    text-align: center;
+    color: $color-Medium-Grey;
+}
+
+.attribution a {
+    color: $color-heading-White;
+}
