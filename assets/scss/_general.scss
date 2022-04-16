@@ -1,0 +1,38 @@
+/*
+ *	GENERAL
+ ------------------------------------------------------ */
+/* border-box */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: $color-body-Very-Dark-Blue;
+
+    font: {
+        size: $font-size-base;
+        family: $font-family-Overpass;
+    }
+}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+h1,
+h2 {
+    color: $color-heading-White;
+}
+
+p {
+    color: $color-p-Light-Grey;
+    font-size: $font-size-p;
+}
