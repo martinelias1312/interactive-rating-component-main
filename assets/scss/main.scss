@@ -55,11 +55,6 @@ p {
     cursor: pointer;
 }
 
-.clicked {
-    color: $color-heading-White;
-    background: $color-p-Light-Grey;
-}
-
 button {
     width: 100%;
     color: $color-heading-White;
@@ -96,6 +91,15 @@ button:focus, button:hover {
     max-width: fit-content;
     padding: 0.5em 0.9em;
     border-radius: 1em;
+}
+
+.clicked {
+    color: $color-heading-White;
+    background: $color-p-Light-Grey;
+}
+
+.hidden {
+    display: none;
 }
 
 /*
