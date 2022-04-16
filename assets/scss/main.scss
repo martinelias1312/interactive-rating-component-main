@@ -41,7 +41,7 @@ p {
     justify-content: space-between;
 }
 
-.rating-options p {
+.number {
     text-align: center;
     width: 3em;
     height: 3em;
@@ -50,7 +50,7 @@ p {
     padding: 0.9em;
 }
 
-.rating-options p:hover, .rating-options p:focus {
+.number:hover, .number:focus {
     background: $color-Orange;
     color: $color-heading-White;
     cursor: pointer;
@@ -94,13 +94,13 @@ button:focus, button:hover {
     border-radius: 1em;
 }
 
-.clicked {
-    color: $color-heading-White;
-    background: $color-p-Light-Grey;
-}
-
 .hidden {
     display: none;
+}
+
+.clicked {
+    color: $color-heading-White;
+    background: $color-Medium-Grey;
 }
 
 /*
