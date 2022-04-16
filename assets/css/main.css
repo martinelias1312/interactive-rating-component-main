@@ -55,10 +55,6 @@ img {
   border: 0;
 }
 
-.hidden {
-  display: none;
-}
-
 h1,
 h2 {
   color: white;
@@ -73,7 +69,8 @@ p {
  *	CONTENT
  ------------------------------------------------------ */
 section {
-  max-width: 325px;
+  width: 325px;
+  height: 350px;
   background: -webkit-gradient(linear, left top, left bottom, from(#1d232b), to(#181e25));
   background: linear-gradient(#1d232b, #181e25);
   border-radius: 1em;
@@ -129,11 +126,6 @@ p {
   cursor: pointer;
 }
 
-.clicked {
-  color: white;
-  background: #959eac;
-}
-
 button {
   width: 100%;
   color: white;
@@ -168,7 +160,7 @@ button:focus, button:hover {
 }
 
 .thanks-img {
-  max-width: 55%;
+  max-width: 56%;
 }
 
 .selected {
@@ -179,6 +171,15 @@ button:focus, button:hover {
   max-width: fit-content;
   padding: 0.5em 0.9em;
   border-radius: 1em;
+}
+
+.clicked {
+  color: white;
+  background: #959eac;
+}
+
+.hidden {
+  display: none;
 }
 
 /*

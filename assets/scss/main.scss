@@ -6,7 +6,8 @@
  *	CONTENT
  ------------------------------------------------------ */
  section {
-    max-width: 325px;
+    width: 325px;
+    height: 350px;
     background: linear-gradient(hsl(213, 20%, 14%), hsl(213, 22%, 12%));
     border-radius: 1em;
 }
@@ -82,7 +83,7 @@ button:focus, button:hover {
 }
 
 .thanks-img {
-    max-width: 55%;
+    max-width: 56%;
 }
 
 .selected {
