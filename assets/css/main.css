@@ -19,6 +19,20 @@ html {
 
 body {
   background: #121417;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 1em;
   font-family: "Overpass", sans-serif;
 }
@@ -29,6 +43,22 @@ img {
   vertical-align: middle;
 }
 
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.hidden {
+  display: none;
+}
+
 h1,
 h2 {
   color: white;
@@ -36,12 +66,91 @@ h2 {
 
 p {
   color: #959eac;
-  font-size: 0.9375em;
+  font-size: 0.88em;
 }
 
 /*
  *	CONTENT
  ------------------------------------------------------ */
+section {
+  max-width: 325px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1d232b), to(#181e25));
+  background: linear-gradient(#1d232b, #181e25);
+  border-radius: 1em;
+}
+
+.rating-state, .thanks-state {
+  padding: 1.5em;
+}
+
+.star-wrap {
+  border-radius: 50%;
+  background: #252d37;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  padding: 0.8em;
+}
+
+.star {
+  background: #252d37;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+p {
+  line-height: 1.4em;
+}
+
+.rating-options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.rating-options p {
+  text-align: center;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  background: #252d37;
+  padding: 0.9em;
+}
+
+.rating-options p:hover, .rating-options p:focus {
+  background: #fb7413;
+  color: white;
+  cursor: pointer;
+}
+
+.clicked {
+  color: white;
+  background: #959eac;
+}
+
+button {
+  width: 100%;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  background: #fb7413;
+  border: none;
+  border-radius: 1em;
+  padding: 0.8em 1em;
+  margin-top: 0.5em;
+}
+
+button:focus, button:hover {
+  background: white;
+  color: #fb7413;
+  cursor: pointer;
+}
+
 /*
  *	FOOTER
  ------------------------------------------------------ */

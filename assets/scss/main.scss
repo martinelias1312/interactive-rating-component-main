@@ -5,6 +5,77 @@
 /*
  *	CONTENT
  ------------------------------------------------------ */
+section {
+    max-width: 325px;
+    background: linear-gradient(hsl(213, 20%, 14%), hsl(213, 22%, 12%));
+    border-radius: 1em;
+}
+
+.rating-state, .thanks-state {
+    padding: 1.5em;
+}
+
+.star-wrap {
+    border-radius: 50%;
+    background: $color-Dark-Blue;
+    max-width: max-content;
+    padding: 0.8em;
+}
+
+.star {
+    background: $color-Dark-Blue;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+p {
+    line-height: 1.4em;
+}
+
+.rating-options {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rating-options p {
+    text-align: center;
+    width: 3em;
+    height: 3em;
+    border-radius: 50%;
+    background: $color-Dark-Blue;
+    padding: 0.9em;
+}
+
+.rating-options p:hover, .rating-options p:focus {
+    background: $color-Orange;
+    color: $color-heading-White;
+    cursor: pointer;
+}
+
+.clicked {
+    color: $color-heading-White;
+    background: $color-p-Light-Grey;
+}
+
+button {
+    width: 100%;
+    color: $color-heading-White;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    background: $color-Orange;
+    border: none;
+    border-radius: 1em;
+    padding: 0.8em 1em;
+    margin-top: 0.5em
+}
+
+button:focus, button:hover {
+    background: $color-heading-White;
+    color: $color-Orange;
+    cursor: pointer;
+}
 
 /*
  *	FOOTER
