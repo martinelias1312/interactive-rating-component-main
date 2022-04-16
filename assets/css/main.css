@@ -83,6 +83,7 @@ section {
   padding: 1.5em;
 }
 
+/* Rating state start */
 .star-wrap {
   border-radius: 50%;
   background: #252d37;
@@ -149,6 +150,35 @@ button:focus, button:hover {
   background: white;
   color: #fb7413;
   cursor: pointer;
+}
+
+/* Thanks state */
+.thanks-state {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.thanks-img {
+  max-width: 55%;
+}
+
+.selected {
+  color: #fb7413;
+  background: #252d37;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  padding: 0.5em 0.9em;
+  border-radius: 1em;
 }
 
 /*
