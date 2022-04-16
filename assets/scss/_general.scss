@@ -14,6 +14,10 @@ html {
 
 body {
     background: $color-body-Very-Dark-Blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     font: {
         size: $font-size-base;
@@ -25,6 +29,22 @@ img {
     width: 100%;
     max-width: 100%;
     vertical-align: middle;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.hidden {
+    display: none;
 }
 
 h1,
