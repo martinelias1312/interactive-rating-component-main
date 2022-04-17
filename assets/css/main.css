@@ -69,8 +69,8 @@ p {
  *	CONTENT
  ------------------------------------------------------ */
 section {
-  width: 325px;
-  height: 350px;
+  max-width: 325px;
+  max-height: 350px;
   background: -webkit-gradient(linear, left top, left bottom, from(#1d232b), to(#181e25));
   background: linear-gradient(#1d232b, #181e25);
   border-radius: 1em;
@@ -118,6 +118,8 @@ p {
   border-radius: 50%;
   background: #252d37;
   padding: 0.9em;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 .number:hover, .number:focus {
@@ -136,6 +138,8 @@ button {
   border-radius: 1em;
   padding: 0.8em 1em;
   margin-top: 0.5em;
+  -webkit-transition: 0.2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
 button:focus, button:hover {

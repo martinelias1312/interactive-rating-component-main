@@ -6,8 +6,8 @@
  *	CONTENT
  ------------------------------------------------------ */
  section {
-    width: 325px;
-    height: 350px;
+    max-width: 325px;
+    max-height: 350px;
     background: linear-gradient(hsl(213, 20%, 14%), hsl(213, 22%, 12%));
     border-radius: 1em;
 }
@@ -48,6 +48,7 @@ p {
     border-radius: 50%;
     background: $color-Dark-Blue;
     padding: 0.9em;
+    transition: 0.2s ease-in-out;
 }
 
 .number:hover, .number:focus {
@@ -65,7 +66,8 @@ button {
     border: none;
     border-radius: 1em;
     padding: 0.8em 1em;
-    margin-top: 0.5em
+    margin-top: 0.5em;
+    transition: 0.2s ease-in-out;
 }
 
 button:focus, button:hover {
