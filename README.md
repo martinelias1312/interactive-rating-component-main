@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-H1N-cIFNc](https://www.frontendmentor.io/solutions/interactive-rating-component-H1N-cIFNc)
 - Live Site URL: [https://interactive-rating-component-main-drab.vercel.app/](https://interactive-rating-component-main-drab.vercel.app/)
 
 ## My process
